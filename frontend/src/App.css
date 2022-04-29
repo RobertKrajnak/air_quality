@@ -1,0 +1,192 @@
+body {
+  font-family: Nunito, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: larger;
+}
+.trieda {
+  padding-top: 0.5rem !important;
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 500px;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #e3e6f0;
+  border-radius: 0.35rem;
+  flex: 1 1 auto;
+  min-height: 108px;
+  padding: 1.25rem;
+  flex-wrap: wrap;
+
+  margin-left: 28px;
+  margin-top: 5px;
+  margin-right: 1.75rem;
+
+  flex-basis: 0;
+  flex-grow: 1;
+
+  max-width: 100%;
+
+  font-weight: 700 !important;
+  margin-bottom: 1.5rem !important;
+}
+.upperCards .trieda:nth-of-type(1) {
+  border-left: 0.25rem solid #1cc88a !important;
+  color: #1cc88a !important;
+}
+.upperCards .trieda:nth-of-type(2) {
+  border-left: 0.25rem solid #36b9cc !important;
+  color: #36b9cc !important;
+}
+.upperCards .trieda:nth-of-type(3) {
+  border-left: 0.25rem solid #f6c23e !important;
+  color: #f6c23e;
+}
+.upperCards .trieda:nth-of-type(4) {
+  border-left: 0.25rem solid #f63e3e !important;
+  color: #f63e3e;
+}
+.upperCards .trieda:nth-of-type(5) {
+  border-left: 0.25rem solid #6f3ef6 !important;
+  color: #6f3ef6;
+}
+.upperCards .trieda:nth-of-type(6) {
+  border-left: 0.25rem solid #695075 !important;
+  color: #695075;
+}
+.upperCards .trieda:nth-of-type(7) {
+  border-left: 0.25rem solid #34aaa4 !important;
+  color: #f6c23e;
+}
+.upperCards .trieda:nth-of-type(8) {
+  border-left: 0.25rem solid #0e0b96 !important;
+  color: #0e0b96;
+}
+.upperCards .trieda:nth-of-type(9) {
+  border-left: 0.25rem solid #cc005f !important;
+  color: #cc005f;
+}
+
+.text-graph {
+  color: #4e73df !important;
+  margin: 0 !important;
+}
+
+.text {
+  font-size: 0.7rem;
+  color: #36b9cc !important;
+  text-transform: uppercase !important;
+  margin-bottom: 0.25rem !important;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -0.75rem;
+  margin-left: -0.75rem;
+  margin-top: 5px;
+  justify-content: center;
+}
+.header {
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 0 !important;
+  margin-right: 1rem !important;
+  font-weight: 700 !important;
+  color: #5a5c69 !important;
+}
+.card {
+  margin-left: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #e3e6f0;
+  border-radius: 0.35rem;
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+}
+.card-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #f8f9fc;
+  border-bottom: 1px solid #e3e6f0;
+  display: flex !important;
+  margin-bottom: 1.5rem !important;
+}
+.first-chart {
+  width: 550px;
+}
+.second-chart {
+  width: 550px;
+}
+.first-chart{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 2%;
+  }
+  .second-chart{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 2%;
+  }
+  html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  @media screen and (max-width: 600px) {
+    .trieda{
+      padding-top: 0.5rem !important;
+      box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      min-width: 290px;
+      word-wrap: break-word;
+      background-color: #fff;
+      background-clip: border-box;
+      border: 1px solid #e3e6f0;
+      border-radius: 0.35rem;
+      flex: 1 1 auto;
+      min-height: 108px;
+      padding: 1.25rem;
+      flex-wrap: wrap;
+      margin-top: 5px;
+      flex-basis: 0;
+      flex-grow: 1;
+      margin-left: auto;
+      margin-right: auto;
+    
+      max-width: 100%;
+    
+      font-weight: 700 !important;
+      margin-bottom: 1.5rem !important;
+    
+    }
+    .first-chart{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 95%;
+      margin-bottom: 2%;
+    }
+    .second-chart{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 95%;
+      margin-bottom: 2%;
+    }
+  }
